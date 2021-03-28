@@ -210,7 +210,7 @@ $(document).ready(function(){
     
     /**
      * Night mode
-     */
+    
     function nightMode() {
         var el = $('body');
         var className = 'night-mode';
@@ -225,7 +225,7 @@ $(document).ready(function(){
     
     if ($('#nm-switch').val() === 'true') {
         nightMode();
-    }
+    } */
     
     /**
      * Copy and copyright

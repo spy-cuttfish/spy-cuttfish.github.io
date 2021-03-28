@@ -27,7 +27,9 @@ since: 2021
 author: 'spy-cuttfish'
 nickname: 'kaino'
 bio: '记录生活'
-avatar: '/assets/img/IMG20180502191149.jpg'
+avatar: ' '
+
+#/assets/img/IMG20180502191149.jpg
 
 # Search
 search: true

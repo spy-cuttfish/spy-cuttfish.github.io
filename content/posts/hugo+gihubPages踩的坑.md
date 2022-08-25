@@ -9,7 +9,7 @@ linkToMarkdown: false
 ---
    
       
-之前利用github pages搞博客，都是乱弄一通。上一个是fork了[Simpleyyt](https://github.com/Simpleyyt/jekyll-theme-next)的内容，之后只需要向_post文件夹里提交.md格式的文章就可以了，傻瓜式操作。   
+之前利用github pages搞博客，都是乱弄一通。上一个是fork了[Simpleyyt](https://github.com/Simpleyyt/jekyll-theme-next)的内容，之后只需要向`\_post`文件夹里提交.md格式的文章就可以了，傻瓜式操作。   
    
 昨天看到一个很喜欢的Hugo主题，于是找了教程[Hugo+Github Pages搭建个人博客](https://shangzg.top/zh-cn/2021-09-14-hugo-github-pages-build-a-personal-blog/#%E6%9E%84%E5%BB%BA%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2) 一步步跟着来。但过程中还是出现了一些问题，浅记一下。
 

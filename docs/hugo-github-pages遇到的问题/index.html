@@ -4,62 +4,46 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>「中国华侨历史博物馆」参观小记 - Huge的生活剪报</title><meta name="Description" content="Huge的生活剪报"><meta property="og:title" content="「中国华侨历史博物馆」参观小记" />
-<meta property="og:description" content="前言 8.21，返校后的第2天，懒得去工位。临时打算随便找个地儿去，本来想走一趟地质博物馆，结果只有下午入场才有空余名额。BUT，假如等到下午，核酸结果就超过72小时了，不敢冒险。
-目的地改换海关博物馆，结果公众号的预约界面一直报错。最后发现海关博物馆因应疫情，一直处于闭馆状态。
-只好在百度地图上乱逛，发现中国华侨历史博物馆。只看占地面积的话，会让人觉得该馆应该比较促狭，藏品也不会有什么出奇之处。本来没抱多大预期，只当消磨时光，没想到收获意外之喜。内容非常充实，花了3个小时才逛完。
-参观 广东厅 展示中国海外移民的历史，把开端一直上溯到武王封「箕子」于朝鲜是我没想到的角度。
-耳熟能详的宋代贸易、郑和下西洋、兰芳公司和明太祖下赐琉球“三十六姓”，当然也是展览必不可少的内容。
-而明代总兵「陈上川」义不事清率兵移居越南和「鄚玖」开发河仙镇的故事，看过的一本古早穿越小说《明郑之我是郑克臧》之中出现过，当时还专门查过资料。
-另外还介绍了，「林道乾」建设泰国北大年、华侨开发吉隆坡和诗巫等未曾听说的内容。
-展厅中也有了苦力贸易的一些文件，针对西班牙文的文书还贴心地附上了翻译，很赞。不过总体来说，这一厅以文字为主，展品较少。
-地下展厅 一进地下，从美国唐人街某酒店搬来的蟠龙立柱矗立在楼梯出口。据介绍，当年黑帮武斗，还在此柱上还留下了弹孔。出于好奇，我仔细搜寻了一番，终究也是没能发现到底在哪里。
-地下共有三个展厅（二到四厅），分别为华侨海外生活、华侨对海外的贡献和中国的侨务发展。
-第二厅尤值得细细参观。力求以文物和展馆布置搭配，还原海外华侨华人真实的生活场景。举凡澳门猪仔馆、马来亚峇峇娘惹建筑风格、南洋宗庙神祠等等都立体生动，让人身临其境。
-展出的文物中，50、60年代一些海外华侨中学校颁发的毕业证书还会注明学生的籍贯，如广东梅县等地。按年龄来说，这些学生应该都是出生在当地才对，不免生出唏嘘慨叹之意。
-不过，也许出于放下历史包袱向前看的考虑，展方对一些历史事件讳莫如深。印尼华侨回国，原因是遭到“迫迁”。马来西亚华教只简单介绍了一下林连玉。参观过程里还发现了一些缅甸华侨的无国籍证件和澳门缅华互助会的相关文物。好奇之下，回来了解之后，发现和1963年缅甸政府国有化外侨资产以及1967年前后缅甸排华等相关。
-其他 地下展厅的冷气开得太足了，导致看到最后真是冷得落荒而逃，许多内容只能赶紧略过了。
-出门那条街上有条横穿马路之中的人行道，设有按钮式红绿灯。想过路的话，按一下按钮，过会儿就会面向车辆亮红灯，面向行人亮绿灯。结果我傻傻呆在路口苦等，发现红灯始终不变绿，尴尬。。。" />
+        <title>Hugo&#43;gihubPages踩的坑 - Huge的生活剪报</title><meta name="Description" content="Huge的生活剪报"><meta property="og:title" content="Hugo&#43;gihubPages踩的坑" />
+<meta property="og:description" content="之前利用github pages搞博客，都是乱弄一通。上一个是fork了Simpleyyt的内容，之后只需要向\_post文件夹里提交.md格式的文章就可以了，傻瓜式操作。
+昨天看到一个很喜欢的Hugo主题，于是找了教程Hugo&#43;Github Pages搭建个人博客 一步步跟着来。但过程中还是出现了一些问题，浅记一下。
+GitHub Pages 部署Build失败 提示如下
+Liquid Exception: Liquid syntax error (line 468): Variable &#39;{{??}&#39; was not properly terminated with regexp: /\\}\\}/ in themes/LoveIt/exampleSite/content/posts/theme-documentation-content/index.en.md
+通过查询issues，在根目录添加一个空的.nojekyll文件可以解决
+具体也可参见Hugo系列(4) - 从Hexo迁移至Hugo以及使用LoveIt主题的踩坑记录
+部署成功后访问usrname.github.io为404 发现遵循Hugo&#43;Github Pages搭建个人博客 时，通过hugo -d docs把静态页面存在了/docs目录下，却忘记setting 中配置GitHub Pages 的指定分支为/docs目录下的静态站点" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://spy-cuttfish.github.io/2022-8-22-%E4%B8%AD%E5%9B%BD%E5%8D%8E%E4%BE%A8%E5%8E%86%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86%E5%8F%82%E8%A7%82%E5%B0%8F%E8%AE%B0/" /><meta property="og:image" content="https://spy-cuttfish.github.io/logo.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-08-22T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-08-22T00:00:00+00:00" /><meta property="og:site_name" content="Huge的生活剪报" />
+<meta property="og:url" content="https://spy-cuttfish.github.io/hugo-github-pages%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/" /><meta property="og:image" content="https://spy-cuttfish.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-08-25T09:55:31+08:00" />
+<meta property="article:modified_time" content="2022-08-25T09:55:31+08:00" /><meta property="og:site_name" content="Huge的生活剪报" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://spy-cuttfish.github.io/logo.png"/>
 
-<meta name="twitter:title" content="「中国华侨历史博物馆」参观小记"/>
-<meta name="twitter:description" content="前言 8.21，返校后的第2天，懒得去工位。临时打算随便找个地儿去，本来想走一趟地质博物馆，结果只有下午入场才有空余名额。BUT，假如等到下午，核酸结果就超过72小时了，不敢冒险。
-目的地改换海关博物馆，结果公众号的预约界面一直报错。最后发现海关博物馆因应疫情，一直处于闭馆状态。
-只好在百度地图上乱逛，发现中国华侨历史博物馆。只看占地面积的话，会让人觉得该馆应该比较促狭，藏品也不会有什么出奇之处。本来没抱多大预期，只当消磨时光，没想到收获意外之喜。内容非常充实，花了3个小时才逛完。
-参观 广东厅 展示中国海外移民的历史，把开端一直上溯到武王封「箕子」于朝鲜是我没想到的角度。
-耳熟能详的宋代贸易、郑和下西洋、兰芳公司和明太祖下赐琉球“三十六姓”，当然也是展览必不可少的内容。
-而明代总兵「陈上川」义不事清率兵移居越南和「鄚玖」开发河仙镇的故事，看过的一本古早穿越小说《明郑之我是郑克臧》之中出现过，当时还专门查过资料。
-另外还介绍了，「林道乾」建设泰国北大年、华侨开发吉隆坡和诗巫等未曾听说的内容。
-展厅中也有了苦力贸易的一些文件，针对西班牙文的文书还贴心地附上了翻译，很赞。不过总体来说，这一厅以文字为主，展品较少。
-地下展厅 一进地下，从美国唐人街某酒店搬来的蟠龙立柱矗立在楼梯出口。据介绍，当年黑帮武斗，还在此柱上还留下了弹孔。出于好奇，我仔细搜寻了一番，终究也是没能发现到底在哪里。
-地下共有三个展厅（二到四厅），分别为华侨海外生活、华侨对海外的贡献和中国的侨务发展。
-第二厅尤值得细细参观。力求以文物和展馆布置搭配，还原海外华侨华人真实的生活场景。举凡澳门猪仔馆、马来亚峇峇娘惹建筑风格、南洋宗庙神祠等等都立体生动，让人身临其境。
-展出的文物中，50、60年代一些海外华侨中学校颁发的毕业证书还会注明学生的籍贯，如广东梅县等地。按年龄来说，这些学生应该都是出生在当地才对，不免生出唏嘘慨叹之意。
-不过，也许出于放下历史包袱向前看的考虑，展方对一些历史事件讳莫如深。印尼华侨回国，原因是遭到“迫迁”。马来西亚华教只简单介绍了一下林连玉。参观过程里还发现了一些缅甸华侨的无国籍证件和澳门缅华互助会的相关文物。好奇之下，回来了解之后，发现和1963年缅甸政府国有化外侨资产以及1967年前后缅甸排华等相关。
-其他 地下展厅的冷气开得太足了，导致看到最后真是冷得落荒而逃，许多内容只能赶紧略过了。
-出门那条街上有条横穿马路之中的人行道，设有按钮式红绿灯。想过路的话，按一下按钮，过会儿就会面向车辆亮红灯，面向行人亮绿灯。结果我傻傻呆在路口苦等，发现红灯始终不变绿，尴尬。。。"/>
+<meta name="twitter:title" content="Hugo&#43;gihubPages踩的坑"/>
+<meta name="twitter:description" content="之前利用github pages搞博客，都是乱弄一通。上一个是fork了Simpleyyt的内容，之后只需要向\_post文件夹里提交.md格式的文章就可以了，傻瓜式操作。
+昨天看到一个很喜欢的Hugo主题，于是找了教程Hugo&#43;Github Pages搭建个人博客 一步步跟着来。但过程中还是出现了一些问题，浅记一下。
+GitHub Pages 部署Build失败 提示如下
+Liquid Exception: Liquid syntax error (line 468): Variable &#39;{{??}&#39; was not properly terminated with regexp: /\\}\\}/ in themes/LoveIt/exampleSite/content/posts/theme-documentation-content/index.en.md
+通过查询issues，在根目录添加一个空的.nojekyll文件可以解决
+具体也可参见Hugo系列(4) - 从Hexo迁移至Hugo以及使用LoveIt主题的踩坑记录
+部署成功后访问usrname.github.io为404 发现遵循Hugo&#43;Github Pages搭建个人博客 时，通过hugo -d docs把静态页面存在了/docs目录下，却忘记setting 中配置GitHub Pages 的指定分支为/docs目录下的静态站点"/>
 <meta name="application-name" content="LoveIt">
 <meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://spy-cuttfish.github.io/2022-8-22-%E4%B8%AD%E5%9B%BD%E5%8D%8E%E4%BE%A8%E5%8E%86%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86%E5%8F%82%E8%A7%82%E5%B0%8F%E8%AE%B0/" /><link rel="prev" href="https://spy-cuttfish.github.io/2022-7-21-%E6%88%91%E5%86%B3%E5%AE%9A%E4%B8%8D%E5%86%8D%E5%81%9A%E7%9A%84%E4%BA%8B%E6%83%85/" /><link rel="next" href="https://spy-cuttfish.github.io/hugo-github-pages%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://spy-cuttfish.github.io/hugo-github-pages%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/" /><link rel="prev" href="https://spy-cuttfish.github.io/2022-8-22-%E4%B8%AD%E5%9B%BD%E5%8D%8E%E4%BE%A8%E5%8E%86%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86%E5%8F%82%E8%A7%82%E5%B0%8F%E8%AE%B0/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "「中国华侨历史博物馆」参观小记",
+        "headline": "Hugo+gihubPages踩的坑",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/spy-cuttfish.github.io\/2022-8-22-%E4%B8%AD%E5%9B%BD%E5%8D%8E%E4%BE%A8%E5%8E%86%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86%E5%8F%82%E8%A7%82%E5%B0%8F%E8%AE%B0\/"
-        },"image": ["https:\/\/spy-cuttfish.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "博物馆","wordcount":  20 ,
-        "url": "https:\/\/spy-cuttfish.github.io\/2022-8-22-%E4%B8%AD%E5%9B%BD%E5%8D%8E%E4%BE%A8%E5%8E%86%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86%E5%8F%82%E8%A7%82%E5%B0%8F%E8%AE%B0\/","datePublished": "2022-08-22T00:00:00+00:00","dateModified": "2022-08-22T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@id": "https:\/\/spy-cuttfish.github.io\/hugo-github-pages%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98\/"
+        },"image": ["https:\/\/spy-cuttfish.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "博客折腾","wordcount":  40 ,
+        "url": "https:\/\/spy-cuttfish.github.io\/hugo-github-pages%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98\/","datePublished": "2022-08-25T09:55:31+08:00","dateModified": "2022-08-25T09:55:31+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
                     "@type": "ImageObject",
@@ -135,10 +119,10 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">「中国华侨历史博物馆」参观小记</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Hugo+gihubPages踩的坑</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Hugh</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-08-22">2022-08-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;20 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;<span id="/2022-8-22-%E4%B8%AD%E5%9B%BD%E5%8D%8E%E4%BE%A8%E5%8E%86%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86%E5%8F%82%E8%A7%82%E5%B0%8F%E8%AE%B0/" class="leancloud_visitors" data-flag-title="「中国华侨历史博物馆」参观小记">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-08-25">2022-08-25</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;40 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;<span id="/hugo-github-pages%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/" class="leancloud_visitors" data-flag-title="Hugo&#43;gihubPages踩的坑">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;views
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
@@ -148,47 +132,24 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#前言">前言</a></li>
-    <li><a href="#参观">参观</a>
-      <ul>
-        <li><a href="#广东厅">广东厅</a></li>
-        <li><a href="#地下展厅">地下展厅</a></li>
-      </ul>
-    </li>
-    <li><a href="#其他">其他</a></li>
+    <li><a href="#github-pages-部署build失败">GitHub Pages 部署Build失败</a></li>
+    <li><a href="#部署成功后访问usrnamegithubio为404">部署成功后访问usrname.github.io为404</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="前言">前言</h2>
-<p>8.21，返校后的第2天，懒得去工位。临时打算随便找个地儿去，本来想走一趟地质博物馆，结果只有下午入场才有空余名额。BUT，假如等到下午，核酸结果就超过72小时了，不敢冒险。</p>
-<p>目的地改换海关博物馆，结果公众号的预约界面一直报错。最后发现海关博物馆因应疫情，一直处于闭馆状态。</p>
-<p>只好在百度地图上乱逛，发现中国华侨历史博物馆。只看占地面积的话，会让人觉得该馆应该比较促狭，藏品也不会有什么出奇之处。本来没抱多大预期，只当消磨时光，没想到收获意外之喜。内容非常充实，花了3个小时才逛完。</p>
-<h2 id="参观">参观</h2>
-<h3 id="广东厅">广东厅</h3>
-<p>展示中国海外移民的历史，把开端一直上溯到武王封「箕子」于朝鲜是我没想到的角度。</p>
-<p>耳熟能详的宋代贸易、郑和下西洋、兰芳公司和明太祖下赐琉球“三十六姓”，当然也是展览必不可少的内容。</p>
-<p>而明代总兵「陈上川」义不事清率兵移居越南和「鄚玖」开发河仙镇的故事，看过的一本古早穿越小说《明郑之我是郑克臧》之中出现过，当时还专门查过资料。</p>
-<p>另外还介绍了，「林道乾」建设泰国北大年、华侨开发吉隆坡和诗巫等未曾听说的内容。</p>
-<p>展厅中也有了苦力贸易的一些文件，针对西班牙文的文书还贴心地附上了翻译，很赞。不过总体来说，这一厅以文字为主，展品较少。</p>
-<h3 id="地下展厅">地下展厅</h3>
-<p>一进地下，从美国唐人街某酒店搬来的蟠龙立柱矗立在楼梯出口。据介绍，当年黑帮武斗，还在此柱上还留下了弹孔。出于好奇，我仔细搜寻了一番，终究也是没能发现到底在哪里。</p>
-<p>地下共有三个展厅（二到四厅），分别为华侨海外生活、华侨对海外的贡献和中国的侨务发展。</p>
-<p>第二厅尤值得细细参观。力求以文物和展馆布置搭配，还原海外华侨华人真实的生活场景。举凡澳门猪仔馆、马来亚峇峇娘惹建筑风格、南洋宗庙神祠等等都立体生动，让人身临其境。</p>
-<p>展出的文物中，50、60年代一些海外华侨中学校颁发的毕业证书还会注明学生的籍贯，如广东梅县等地。按年龄来说，这些学生应该都是出生在当地才对，不免生出唏嘘慨叹之意。</p>
-<p>不过，也许出于放下历史包袱向前看的考虑，展方对一些历史事件讳莫如深。印尼华侨回国，原因是遭到“迫迁”。马来西亚华教只简单介绍了一下林连玉。参观过程里还发现了一些缅甸华侨的无国籍证件和澳门缅华互助会的相关文物。好奇之下，回来了解之后，发现和1963年缅甸政府国有化外侨资产以及1967年前后缅甸排华等相关。</p>
-<h2 id="其他">其他</h2>
-<ul>
-<li>
-<p>地下展厅的冷气开得太足了，导致看到最后真是冷得落荒而逃，许多内容只能赶紧略过了。</p>
-</li>
-<li>
-<p>出门那条街上有条横穿马路之中的人行道，设有按钮式红绿灯。想过路的话，按一下按钮，过会儿就会面向车辆亮红灯，面向行人亮绿灯。结果我傻傻呆在路口苦等，发现红灯始终不变绿，尴尬。。。</p>
-</li>
-</ul>
+            </div><div class="content" id="content"><p>之前利用github pages搞博客，都是乱弄一通。上一个是fork了<a href="https://github.com/Simpleyyt/jekyll-theme-next" target="_blank" rel="noopener noreffer ">Simpleyyt</a>的内容，之后只需要向<code>\_post</code>文件夹里提交.md格式的文章就可以了，傻瓜式操作。</p>
+<p>昨天看到一个很喜欢的Hugo主题，于是找了教程<a href="https://shangzg.top/zh-cn/2021-09-14-hugo-github-pages-build-a-personal-blog/#%E6%9E%84%E5%BB%BA%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2" target="_blank" rel="noopener noreffer ">Hugo+Github Pages搭建个人博客</a> 一步步跟着来。但过程中还是出现了一些问题，浅记一下。</p>
+<h2 id="github-pages-部署build失败">GitHub Pages 部署Build失败</h2>
+<p>提示如下</p>
+<p><code>Liquid Exception: Liquid syntax error (line 468): Variable '{?' was not properly terminated with regexp: /\\}\\}/ in themes/LoveIt/exampleSite/content/posts/theme-documentation-content/index.en.md</code></p>
+<p>通过查询issues，在根目录添加一个空的<code>.nojekyll</code>文件可以解决</p>
+<p>具体也可参见<a href="https://lewky.cn/posts/hugo-4.html/#%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2%E5%88%B0github-pages%E5%90%8Ebuild%E5%A4%B1%E8%B4%A5" target="_blank" rel="noopener noreffer ">Hugo系列(4) - 从Hexo迁移至Hugo以及使用LoveIt主题的踩坑记录</a></p>
+<h2 id="部署成功后访问usrnamegithubio为404">部署成功后访问usrname.github.io为404</h2>
+<p>发现遵循<a href="https://shangzg.top/zh-cn/2021-09-14-hugo-github-pages-build-a-personal-blog/#%E6%9E%84%E5%BB%BA%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2" target="_blank" rel="noopener noreffer ">Hugo+Github Pages搭建个人博客</a> 时，通过<code>hugo -d docs</code>把静态页面存在了<code>/docs</code>目录下，却忘记setting 中配置GitHub Pages 的指定分支为<code>/docs</code>目录下的静态站点</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2022-08-22</span>
+                <span>Updated on 2022-08-25</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
@@ -199,14 +160,13 @@
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E5%8D%9A%E7%89%A9%E9%A6%86/">博物馆</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE/">博客折腾</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/2022-7-21-%E6%88%91%E5%86%B3%E5%AE%9A%E4%B8%8D%E5%86%8D%E5%81%9A%E7%9A%84%E4%BA%8B%E6%83%85/" class="prev" rel="prev" title="我决定不再做的事情"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>我决定不再做的事情</a>
-            <a href="/hugo-github-pages%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/" class="next" rel="next" title="Hugo&#43;gihubPages踩的坑">Hugo+gihubPages踩的坑<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/2022-8-22-%E4%B8%AD%E5%9B%BD%E5%8D%8E%E4%BE%A8%E5%8E%86%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86%E5%8F%82%E8%A7%82%E5%B0%8F%E8%AE%B0/" class="prev" rel="prev" title="「中国华侨历史博物馆」参观小记"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>「中国华侨历史博物馆」参观小记</a></div>
 </div>
 <div id="comments"><div id="valine" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.

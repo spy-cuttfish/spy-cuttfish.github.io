@@ -4,9 +4,6 @@ subtitle: ""
 date: 2022-08-25T09:55:31+08:00
 lastmod: 2022-08-25T09:55:31+08:00
 draft: false
-toc:
-  enable: true
-weight: false
 tags: ["博客折腾"]
 linkToMarkdown: false
 ---

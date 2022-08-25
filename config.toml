@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://spy-cuttfish.github.io/"
 
 # theme
 # 主题
@@ -160,7 +160,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     author = true
     # site creation time
     # 网站创立年份
-    since = 2019
+    since = 2021
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
@@ -425,7 +425,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Gitalk comment config (https://github.com/gitalk/gitalk)
       # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
-        enable = false
+        enable = true
         owner = ""
         repo = ""
         clientId = ""
@@ -433,7 +433,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Valine comment config (https://github.com/xCss/Valine)
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = true
+        enable = false
         appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
         appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
         placeholder = ""

@@ -13,13 +13,13 @@ title = "Huge的生活剪报"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 # language code ["en", "zh-CN", "fr", "pl", ...]
 # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "en"
+languageCode = "zh-cn"
 # language name ["English", "简体中文", "Français", "Polski", ...]
 # 语言名称 ["English", "简体中文", "Français", "Polski", ...]
-languageName = "English"
+languageName = "简体中文"
 # whether to include Chinese/Japanese/Korean
 # 是否包括中日韩文字
 hasCJKLanguage = true
@@ -717,55 +717,54 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 # Multilingual
 # 多语言
-[languages]
-  [languages.en]
+  [languages.zh-cn]
     weight = 1
-    languageCode = "en"
-    languageName = "English"
-    hasCJKLanguage = false
+    languageCode = "zh-CN"
+    languageName = "简体中文"
+    hasCJKLanguage = true
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    [languages.en.menu]
-      [[languages.en.menu.main]]
+    [languages.zh-cn.menu]
+      [[languages.zh-cn.menu.main]]
         weight = 1
         identifier = "posts"
         pre = ""
         post = ""
-        name = "Posts"
+        name = "所有文章"
         url = "/posts/"
         title = ""
-      [[languages.en.menu.main]]
+      [[languages.zh-cn.menu.main]]
         weight = 2
         identifier = "tags"
         pre = ""
         post = ""
-        name = "Tags"
+        name = "标签"
         url = "/tags/"
         title = ""
-      [[languages.en.menu.main]]
+      [[languages.zh-cn.menu.main]]
         weight = 3
         identifier = "about"
         pre = ""
         post = ""
-        name = "About"
+        name = "关于"
         url = "/about/"
         title = ""
-    [languages.en.params]
-      [languages.en.params.search]
+    [languages.zh-cn.params]
+      [languages.zh-cn.params.search]
         enable = true
         type = "algolia"
         contentLength = 4000
         placeholder = ""
         maxResultLength = 10
-        snippetLength = 30
+        snippetLength = 50
         highlightTag = "em"
         absoluteURL = false
-        [languages.en.params.search.algolia]
-          index = "index.en"
+        [languages.zh-cn.params.search.algolia]
+          index = "index.zh-cn"
           appID = "PASDMWALPK"
           searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-      [languages.en.params.home]
+      [languages.zh-cn.params.home]
         rss = 10
-        [languages.en.params.home.profile]
+        [languages.zh-cn.params.home.profile]
           enable = true
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
@@ -774,9 +773,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           typeit = true
           social = true
           disclaimer = ""
-      [languages.en.params.social]
+      [languages.zh-cn.params.social]
         Weibo = "u/5563715524"
         Email = "percival3303@163.com"
-        # [languages.en.params.social.Mastodon]
-        #   id = "@xxxx"
-        #   prefix = "https://mastodon.technology/"
+        RSS = true

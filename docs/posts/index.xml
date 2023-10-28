@@ -3,28 +3,36 @@
     <title>所有文章 - Huge的生活剪报</title>
     <link>https://spy-cuttfish.github.io/posts/</link>
     <description>所有文章 | Huge的生活剪报</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 26 Oct 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://spy-cuttfish.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 28 Oct 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://spy-cuttfish.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+  <title>ECC校验算法</title>
+  <link>https://spy-cuttfish.github.io/2023-10-28ecc%E7%AE%97%E6%B3%95/</link>
+  <pubDate>Sat, 28 Oct 2023 00:00:00 &#43;0000</pubDate>
+  <author>Hugh</author>
+  <guid>https://spy-cuttfish.github.io/2023-10-28ecc%E7%AE%97%E6%B3%95/</guid>
+  <description><![CDATA[之前做笔试题的时候又碰到ECC的题，但我之前只知道CRC。 CRC（循环冗余校验，Cyclic redundancy check）主要用于数据传输过程中的检测。而E]]></description>
+</item>
+<item>
   <title> 破除关于博客的迷思</title>
-  <link>https://spy-cuttfish.github.io/20231026%E7%A0%B4%E9%99%A4%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%B7%E6%80%9D/</link>
+  <link>https://spy-cuttfish.github.io/2023-10-26%E7%A0%B4%E9%99%A4%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%B7%E6%80%9D/</link>
   <pubDate>Thu, 26 Oct 2023 00:00:00 &#43;0000</pubDate>
   <author>Hugh</author>
-  <guid>https://spy-cuttfish.github.io/20231026%E7%A0%B4%E9%99%A4%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%B7%E6%80%9D/</guid>
+  <guid>https://spy-cuttfish.github.io/2023-10-26%E7%A0%B4%E9%99%A4%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%B7%E6%80%9D/</guid>
   <description><![CDATA[一直把博客看成是比较重型的工具，所以好多时候有了记录的想法，又草草放弃。今天通过丑搜随便搜了一个题目，看到有位博主的文章也不缺简短的内容。自]]></description>
 </item>
 <item>
   <title> 秋招记录</title>
-  <link>https://spy-cuttfish.github.io/20231026%E7%A7%8B%E6%8B%9B%E5%B0%8F%E8%AE%B0/</link>
+  <link>https://spy-cuttfish.github.io/2023-10-26%E7%A7%8B%E6%8B%9B%E5%B0%8F%E8%AE%B0/</link>
   <pubDate>Thu, 26 Oct 2023 00:00:00 &#43;0000</pubDate>
   <author>Hugh</author>
-  <guid>https://spy-cuttfish.github.io/20231026%E7%A7%8B%E6%8B%9B%E5%B0%8F%E8%AE%B0/</guid>
+  <guid>https://spy-cuttfish.github.io/2023-10-26%E7%A7%8B%E6%8B%9B%E5%B0%8F%E8%AE%B0/</guid>
   <description><![CDATA[10月23日收到满足预期的offer，本来没想到可以开到这么高，虽然年终奖占比高且没有额外加班费😫，但其实还算满意。 整个秋招从8月30日回学]]></description>
 </item>
 <item>
   <title> 《薄伽梵歌》阅读小记</title>
-  <link>https://spy-cuttfish.github.io/20221018%E8%96%84%E4%BC%BD%E6%A2%B5%E6%AD%8C%E9%98%85%E8%AF%BB%E5%B0%8F%E8%AE%B0/</link>
+  <link>https://spy-cuttfish.github.io/2022-10-18%E8%96%84%E4%BC%BD%E6%A2%B5%E6%AD%8C%E9%98%85%E8%AF%BB%E5%B0%8F%E8%AE%B0/</link>
   <pubDate>Tue, 18 Oct 2022 00:00:00 &#43;0000</pubDate>
   <author>Hugh</author>
-  <guid>https://spy-cuttfish.github.io/20221018%E8%96%84%E4%BC%BD%E6%A2%B5%E6%AD%8C%E9%98%85%E8%AF%BB%E5%B0%8F%E8%AE%B0/</guid>
+  <guid>https://spy-cuttfish.github.io/2022-10-18%E8%96%84%E4%BC%BD%E6%A2%B5%E6%AD%8C%E9%98%85%E8%AF%BB%E5%B0%8F%E8%AE%B0/</guid>
   <description><![CDATA[缘起 之所以来读《薄伽梵歌》，还得说到在小宇宙上听到 「出格电台」 第13、15期上下两集的内容——题目叫 「婚礼、宗教、混乱——我在印度研究杀生祭]]></description>
 </item>
 <item>
@@ -74,14 +82,6 @@
   <author>Hugh</author>
   <guid>https://spy-cuttfish.github.io/2022-8-25hugo-github-pages%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
   <description><![CDATA[之前利用github pages搞博客，都是乱弄一通。上一个是fork了Simpleyyt的内容，之后只需要向\_post文件夹里提交.md格]]></description>
-</item>
-<item>
-  <title>「中国华侨历史博物馆」参观小记</title>
-  <link>https://spy-cuttfish.github.io/2022-8-22-%E4%B8%AD%E5%9B%BD%E5%8D%8E%E4%BE%A8%E5%8E%86%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86%E5%8F%82%E8%A7%82%E5%B0%8F%E8%AE%B0/</link>
-  <pubDate>Mon, 22 Aug 2022 00:00:00 &#43;0000</pubDate>
-  <author>Hugh</author>
-  <guid>https://spy-cuttfish.github.io/2022-8-22-%E4%B8%AD%E5%9B%BD%E5%8D%8E%E4%BE%A8%E5%8E%86%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A6%86%E5%8F%82%E8%A7%82%E5%B0%8F%E8%AE%B0/</guid>
-  <description><![CDATA[前言 8.21，返校后的第2天，懒得去工位。临时打算随便找个地儿去，本来想走一趟地质博物馆，结果只有下午入场才有空余名额。BUT，假如等到下午]]></description>
 </item>
 </channel>
 </rss>

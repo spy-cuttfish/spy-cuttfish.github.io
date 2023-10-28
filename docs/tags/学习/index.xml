@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>学习 - 标签 - Huge的生活剪报</title>
+    <link>https://spy-cuttfish.github.io/tags/%E5%AD%A6%E4%B9%A0/</link>
+    <description>学习 - 标签 - Huge的生活剪报</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 28 Oct 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://spy-cuttfish.github.io/tags/%E5%AD%A6%E4%B9%A0/" rel="self" type="application/rss+xml" /><item>
+  <title>ECC校验算法</title>
+  <link>https://spy-cuttfish.github.io/2023-10-28ecc%E7%AE%97%E6%B3%95/</link>
+  <pubDate>Sat, 28 Oct 2023 00:00:00 &#43;0000</pubDate>
+  <author>Hugh</author>
+  <guid>https://spy-cuttfish.github.io/2023-10-28ecc%E7%AE%97%E6%B3%95/</guid>
+  <description><![CDATA[之前做笔试题的时候又碰到ECC的题，但我之前只知道CRC。 CRC（循环冗余校验，Cyclic redundancy check）主要用于数据传输过程中的检测。而E]]></description>
+</item>
+</channel>
+</rss>

@@ -3,13 +3,29 @@
     <title>学习 - 标签 - Huge的生活剪报</title>
     <link>https://spy-cuttfish.github.io/tags/%E5%AD%A6%E4%B9%A0/</link>
     <description>学习 - 标签 - Huge的生活剪报</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 28 Oct 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://spy-cuttfish.github.io/tags/%E5%AD%A6%E4%B9%A0/" rel="self" type="application/rss+xml" /><item>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 02 Nov 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://spy-cuttfish.github.io/tags/%E5%AD%A6%E4%B9%A0/" rel="self" type="application/rss+xml" /><item>
+  <title>播客《各奔前途》3/31期</title>
+  <link>https://spy-cuttfish.github.io/2023-11-02%E5%90%84%E5%A5%94%E5%89%8D%E9%80%94-%E9%87%91%E8%9E%8D%E5%8F%98%E9%9D%A9%E5%8A%A0%E9%80%9F%E5%A6%82%E4%BD%95%E6%8D%82%E7%B4%A7%E8%87%AA%E5%B7%B1%E7%9A%84%E9%92%B1%E8%A2%8B%E5%AD%90/</link>
+  <pubDate>Thu, 02 Nov 2023 00:00:00 &#43;0000</pubDate>
+  <author>Hugh</author>
+  <guid>https://spy-cuttfish.github.io/2023-11-02%E5%90%84%E5%A5%94%E5%89%8D%E9%80%94-%E9%87%91%E8%9E%8D%E5%8F%98%E9%9D%A9%E5%8A%A0%E9%80%9F%E5%A6%82%E4%BD%95%E6%8D%82%E7%B4%A7%E8%87%AA%E5%B7%B1%E7%9A%84%E9%92%B1%E8%A2%8B%E5%AD%90/</guid>
+  <description><![CDATA[听了 3/31 日这一期「金融变革加速，如何捂紧自己的“钱袋子”」 大概总结这么几点： 1、今后几年，现金为王 2、中美脱钩类似”中年夫妇离婚“，很难但是总]]></description>
+</item>
+<item>
+  <title>win常用命令</title>
+  <link>https://spy-cuttfish.github.io/2023-10-30win%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+  <pubDate>Mon, 30 Oct 2023 00:00:00 &#43;0000</pubDate>
+  <author>Hugh</author>
+  <guid>https://spy-cuttfish.github.io/2023-10-30win%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+  <description><![CDATA[拖拽窗口快速抖动两下，可将打开的其余窗口最小化 「win + tab」 打开桌面选项，「win + ctrl + ←/→」 切换桌面 「win + v」打开剪贴板 「Win]]></description>
+</item>
+<item>
   <title>ECC校验算法</title>
   <link>https://spy-cuttfish.github.io/2023-10-28ecc%E7%AE%97%E6%B3%95/</link>
   <pubDate>Sat, 28 Oct 2023 00:00:00 &#43;0000</pubDate>
   <author>Hugh</author>
   <guid>https://spy-cuttfish.github.io/2023-10-28ecc%E7%AE%97%E6%B3%95/</guid>
-  <description><![CDATA[之前做笔试题的时候又碰到ECC的题，但我之前只知道CRC。 CRC（循环冗余校验，Cyclic redundancy check）主要用于数据传输过程中的检测。而E]]></description>
+  <description><![CDATA[之前做笔试题的时候有碰到ECC的题，但我之前只知道CRC。 CRC（循环冗余校验，Cyclic redundancy check）主要用于数据传输过程中的检测。而E]]></description>
 </item>
 </channel>
 </rss>

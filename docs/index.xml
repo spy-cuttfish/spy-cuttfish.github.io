@@ -3,15 +3,39 @@
     <title>Huge的生活剪报</title>
     <link>https://spy-cuttfish.github.io/</link>
     <description>Huge的生活剪报</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 28 Oct 2023 00:00:00 &#43;0000</lastBuildDate>
+    <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 05 Nov 2023 00:00:00 &#43;0000</lastBuildDate>
       <atom:link href="https://spy-cuttfish.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+  <title>原田僚太郎「劳动与雕塑」演讲</title>
+  <link>https://spy-cuttfish.github.io/2023-11-05%E5%8E%9F%E7%94%B0%E5%83%9A%E5%A4%AA%E9%83%8E%E5%8A%B3%E5%8A%A8%E4%B8%8E%E9%9B%95%E5%A1%91%E6%BC%94%E8%AE%B2/</link>
+  <pubDate>Sun, 05 Nov 2023 00:00:00 &#43;0000</pubDate>
+  <author>Hugh</author>
+  <guid>https://spy-cuttfish.github.io/2023-11-05%E5%8E%9F%E7%94%B0%E5%83%9A%E5%A4%AA%E9%83%8E%E5%8A%B3%E5%8A%A8%E4%B8%8E%E9%9B%95%E5%A1%91%E6%BC%94%E8%AE%B2/</guid>
+  <description><![CDATA[限りある体 自分の命の形を生きる 1 今天北京下雨气温突降，到日本使馆听了原田先生的演讲，同时参加电影《再次》的放映。活动是今年外国驻华使团「多元]]></description>
+</item>
+<item>
+  <title>播客《各奔前途》3/31期</title>
+  <link>https://spy-cuttfish.github.io/2023-11-02%E5%90%84%E5%A5%94%E5%89%8D%E9%80%94-%E9%87%91%E8%9E%8D%E5%8F%98%E9%9D%A9%E5%8A%A0%E9%80%9F%E5%A6%82%E4%BD%95%E6%8D%82%E7%B4%A7%E8%87%AA%E5%B7%B1%E7%9A%84%E9%92%B1%E8%A2%8B%E5%AD%90/</link>
+  <pubDate>Thu, 02 Nov 2023 00:00:00 &#43;0000</pubDate>
+  <author>Hugh</author>
+  <guid>https://spy-cuttfish.github.io/2023-11-02%E5%90%84%E5%A5%94%E5%89%8D%E9%80%94-%E9%87%91%E8%9E%8D%E5%8F%98%E9%9D%A9%E5%8A%A0%E9%80%9F%E5%A6%82%E4%BD%95%E6%8D%82%E7%B4%A7%E8%87%AA%E5%B7%B1%E7%9A%84%E9%92%B1%E8%A2%8B%E5%AD%90/</guid>
+  <description><![CDATA[听了 3/31 日这一期「金融变革加速，如何捂紧自己的“钱袋子”」 大概总结这么几点： 1、今后几年，现金为王 2、中美脱钩类似”中年夫妇离婚“，很难但是总]]></description>
+</item>
+<item>
+  <title>win常用命令</title>
+  <link>https://spy-cuttfish.github.io/2023-10-30win%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+  <pubDate>Mon, 30 Oct 2023 00:00:00 &#43;0000</pubDate>
+  <author>Hugh</author>
+  <guid>https://spy-cuttfish.github.io/2023-10-30win%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+  <description><![CDATA[拖拽窗口快速抖动两下，可将打开的其余窗口最小化 「win + tab」 打开桌面选项，「win + ctrl + ←/→」 切换桌面 「win + v」打开剪贴板 「Win]]></description>
+</item>
+<item>
   <title>ECC校验算法</title>
   <link>https://spy-cuttfish.github.io/2023-10-28ecc%E7%AE%97%E6%B3%95/</link>
   <pubDate>Sat, 28 Oct 2023 00:00:00 &#43;0000</pubDate>
   <author>Hugh</author>
   <guid>https://spy-cuttfish.github.io/2023-10-28ecc%E7%AE%97%E6%B3%95/</guid>
-  <description><![CDATA[之前做笔试题的时候又碰到ECC的题，但我之前只知道CRC。 CRC（循环冗余校验，Cyclic redundancy check）主要用于数据传输过程中的检测。而E]]></description>
+  <description><![CDATA[之前做笔试题的时候有碰到ECC的题，但我之前只知道CRC。 CRC（循环冗余校验，Cyclic redundancy check）主要用于数据传输过程中的检测。而E]]></description>
 </item>
 <item>
   <title> 破除关于博客的迷思</title>
@@ -60,30 +84,6 @@
   <author>Hugh</author>
   <guid>https://spy-cuttfish.github.io/2022-9-13%E9%87%91%E9%92%B1%E7%9A%84%E7%81%B5%E9%AD%82%E9%98%85%E8%AF%BB%E5%B0%8F%E8%AE%B0/</guid>
   <description><![CDATA[开端 中秋佳节，放假三天，因为北京疫情的缘故，学校又把学生都关在学校。于是花4h2m，翻阅了《金钱的灵魂》。 了解到这本书，是在小宇宙听完「知行]]></description>
-</item>
-<item>
-  <title> 听「恍然大悟」第02期后的恍然大悟</title>
-  <link>https://spy-cuttfish.github.io/2022-8-29%E5%90%AC%E6%81%8D%E7%84%B6%E5%A4%A7%E6%82%9F%E7%AC%AC02%E6%9C%9F%E5%90%8E%E7%9A%84%E6%81%8D%E7%84%B6%E5%A4%A7%E6%82%9F/</link>
-  <pubDate>Mon, 29 Aug 2022 00:00:00 &#43;0000</pubDate>
-  <author>Hugh</author>
-  <guid>https://spy-cuttfish.github.io/2022-8-29%E5%90%AC%E6%81%8D%E7%84%B6%E5%A4%A7%E6%82%9F%E7%AC%AC02%E6%9C%9F%E5%90%8E%E7%9A%84%E6%81%8D%E7%84%B6%E5%A4%A7%E6%82%9F/</guid>
-  <description><![CDATA[听了内向的我们怎么混迹职场之后，感觉很有感触。 去年升学之后，进入了新的学校、新的环境。开始感觉很难和别人熟悉起来，也找不到共同话题，社交苦手]]></description>
-</item>
-<item>
-  <title>「中国地质博物馆」&#43;「广济寺」参观小记</title>
-  <link>https://spy-cuttfish.github.io/2022-8-28%E4%B8%AD%E5%9B%BD%E5%9C%B0%E8%B4%A8%E5%8D%9A%E7%89%A9%E9%A6%86%E5%92%8C%E5%B9%BF%E6%B5%8E%E5%AF%BA%E5%8F%82%E8%A7%82%E5%B0%8F%E8%AE%B0/</link>
-  <pubDate>Sun, 28 Aug 2022 00:00:00 &#43;0000</pubDate>
-  <author>Hugh</author>
-  <guid>https://spy-cuttfish.github.io/2022-8-28%E4%B8%AD%E5%9B%BD%E5%9C%B0%E8%B4%A8%E5%8D%9A%E7%89%A9%E9%A6%86%E5%92%8C%E5%B9%BF%E6%B5%8E%E5%AF%BA%E5%8F%82%E8%A7%82%E5%B0%8F%E8%AE%B0/</guid>
-  <description><![CDATA[地博 周六上午去了地博，通过携程预约了学生票（按购票说明写成年学生也可免票，特意带了研究生证，不过并未查验）。不过到的略早，9点才开门，就在门]]></description>
-</item>
-<item>
-  <title>Hugo&#43;gihubPages踩的坑</title>
-  <link>https://spy-cuttfish.github.io/2022-8-25hugo-github-pages%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</link>
-  <pubDate>Thu, 25 Aug 2022 09:55:31 &#43;0800</pubDate>
-  <author>Hugh</author>
-  <guid>https://spy-cuttfish.github.io/2022-8-25hugo-github-pages%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
-  <description><![CDATA[之前利用github pages搞博客，都是乱弄一通。上一个是fork了Simpleyyt的内容，之后只需要向\_post文件夹里提交.md格]]></description>
 </item>
 </channel>
 </rss>

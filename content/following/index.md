@@ -5,7 +5,7 @@ type: following
 draft: true
 ---
 
-# 订阅的博客
+# 我的订阅
 
 ## blog
 
